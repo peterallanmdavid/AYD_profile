@@ -4,7 +4,7 @@
   "description": "Aquilino David's Tutoring Profile",
   "main": "server.js",
   "scripts": {
-    "start": "webpack-dev-server --hot --inline --history-api-fallback",
+    "postinstall": "webpack-dev-server --hot --inline --history-api-fallback",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Peter Allan M. David",
